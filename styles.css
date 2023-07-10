@@ -1,0 +1,39 @@
+body,html{
+    height:100%;
+}
+.container-fluid{
+    height:100%;display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.main{
+    
+    height:50%;
+    width:50%;
+    left:18em;
+    bottom:18em;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 6fr;
+    z-index: 0;
+}
+.lower{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+.card{
+    display:flex;
+    height:100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border:2px solid;
+}
+img{
+    height:50%;
+    width:50%;
+    border-radius: 50%;
+}
